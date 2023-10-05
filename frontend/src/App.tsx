@@ -4,6 +4,8 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./Home/Home";
 import Products from "./Products/Products";
+import OrderDetail from './Orders/OrderDetail';
+import Orders from './Orders/Orders';
 
 function App() {
   const openMenu = () => {
