@@ -65,7 +65,4 @@ function App() {
 }
 
 export default App;
-import Product from './Products/Products';
-import Home from './Home/Home';
-import Orders from './Orders/Orders';
-import OrderDetail from './Orders/OrderDetail';
+
