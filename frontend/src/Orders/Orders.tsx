@@ -26,13 +26,13 @@ function Orders() {
                 <tbody>
                     {data.orders.map((order)=> (
                         <tr key={order._id}>
-                            <td>{order.createdAt}</td>
+                            <td>{order.createAT}</td>
                             <td>{order.totalPrice}</td>
                             <td>{order.user.name}</td>
                             <td>{order.isPaid}</td>
                             <td>{order.paidAt}</td>
                             <td>{order.isDelivered.toString()}</td>
-                            <td>{order.deliverableData}</td>
+                            <td>{order.deliveredDate}</td>
                             <td>
                                 <Link to={"/order/" + order._id} className="button secondary">
                                     Details
