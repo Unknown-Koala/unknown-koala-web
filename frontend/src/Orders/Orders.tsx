@@ -26,6 +26,7 @@ function Orders() {
                 <tbody>
                     {data.orders.map((order)=> (
                         <tr key={order._id}>
+                            <td>{order._id}</td>
                             <td>{order.createAT}</td>
                             <td>{order.totalPrice}</td>
                             <td>{order.user.name}</td>
