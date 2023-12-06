@@ -19,7 +19,7 @@ function Products(){
       = useState(emptyProducts);
 
     useEffect(() => {
-        axios.get<Product[]>("https://localhost:7254/catalog",
+        axios.get<Product[]>("https://unknown-koala-api.azurewebsites.net/catalog",
         {
             headers: {
                 "Content-Type": "application/json",
